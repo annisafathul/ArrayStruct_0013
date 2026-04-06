@@ -21,7 +21,7 @@ int main()
     cout << "Isikan data usia : ";
     cin >> mhs.umur;
 
-    cin >> mhs.umur;
+    
 
     // menampilkan data
     cout << "Data Mahasiswa:" << endl;
