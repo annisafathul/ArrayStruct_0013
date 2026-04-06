@@ -33,3 +33,12 @@ int main()
         cin>> mhs[i].umur;
         cin.ignore();
     }
+    for (int i = 0; i <= 2; i++)
+    {
+       cout << "Data Mahasiswa Ke-" << i + 1 << " : " << endl;
+       cout << "Nama : " << mhs[i].nama << endl;
+       cout << "Kota : " << mhs[i].alamat.kota << endl;
+       cout << "Desa : " << mhs[i].alamat.desa << endl;
+       cout << "Usia : " << mhs[i].umur <<endl;
+    }
+}
